@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>物流大数据平台</title>
+    <link rel="stylesheet" href="css/visual.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="bg_header">
+        <h2>城市信息数据平台</h2>
+    </div>
+</div>
+<!--main-->
+<div class="data_content">
+    <div class="data_main">
+        <div class="main_left">
+            <div class="left_1">
+                <!--左上边框-->
+                <div class="t_line_box">
+                    <i class="t_l_line"></i> 
+                    <i class="l_t_line"></i> 
+                </div>
+                <div class="main_title">
+                    <img src="img/t_1.png" alt="">
+                    物流信息数据
+                </div>
+                <div class="left_a" id="left_a"></div>
+            </div>
+            <div class="left_2" id="left_2">
+                <!--左上边框-->
+                <div class="t_line_box">
+                    <i class="t_l_line"></i> 
+                    <i class="l_t_line"></i> 
+                </div>
+                <div class="main_title">
+                    <img src="img/t_2.png" alt="">
+                    相对占比密度
+                </div>
+                <div class="left_a" id="left_b"></div>
+            </div>
+        </div>
+        <div class="main_center">
+            <div class="center_text" id="center_text">
+                <!--左上边框-->
+                <div class="t_line_box">
+                    <i class="t_l_line"></i> 
+                    <i class="l_t_line"></i> 
+                </div> 
+                <!--右上边框-->
+                <div class="t_line_box">
+                    <i class="t_r_line"></i> 
+                    <i class="r_t_line"></i> 
+                </div> 
+                <!--左下边框-->
+                <div class="t_line_box">
+                    <i class="l_b_line"></i> 
+                    <i class="b_l_line"></i> 
+                </div> 
+                 <!--右下边框-->
+                 <div class="t_line_box">
+                    <i class="r_b_line"></i> 
+                    <i class="b_r_line"></i> 
+                </div> 
+                <div class="main_title">
+                    <img src="img/t_3.png" alt="">
+                    中国国家地图
+                </div>
+                <div class="center_box" id="center_map"></div>
+            </div>
+        </div>
+        <div class="main_right">
+            <div class="right_1" id="right_1">
+                <!-- 右上边框 -->
+                <div class="t_line_box">
+                    <i class="t_r_line"></i> 
+                    <i class="r_t_line"></i> 
+                </div> 
+                <div class="main_title">
+                    <img src="img/t_4.png" alt="">
+                    货物周转量
+                </div>
+                <div class="right_a" id="right_a"></div>
+            </div>
+            <div class="right_2" id="right_2">
+                <!-- 右上边框 -->
+                <div class="t_line_box">
+                    <i class="t_r_line"></i> 
+                    <i class="r_t_line"></i> 
+                </div> 
+                <div class="main_title">
+                    <img src="img/t_5.png" alt="">
+                    高速公路信息
+                </div>
+                <div class="right_a" id="right_b"></div>
+            </div>
+        </div>
+    </div>
+    <div class="data_bottom">
+        <div class="bottom_1" id="bottom_1">
+            <!--左下边框-->
+            <div class="t_line_box">
+                <i class="l_b_line"></i> 
+                <i class="b_l_line"></i> 
+            </div> 
+            <div class="main_title">
+                <img src="img/t_6.png" alt="">
+                奢侈商品数据
+            </div>
+            <div class="left_b" id="left_c"></div>
+        </div>
+        <div class="bottom_center">
+            <div class="bottom_2" id="bottom_2">
+                <!--左上边框-->
+                <div class="t_line_box">
+                    <i class="t_l_line"></i> 
+                    <i class="l_t_line"></i> 
+                </div> 
+                <!--右上边框-->
+                <div class="t_line_box">
+                    <i class="t_r_line"></i> 
+                    <i class="r_t_line"></i> 
+                </div> 
+                <!--左下边框-->
+                <div class="t_line_box">
+                    <i class="l_b_line"></i> 
+                    <i class="b_l_line"></i> 
+                </div> 
+                    <!--右下边框-->
+                    <div class="t_line_box">
+                    <i class="r_b_line"></i> 
+                    <i class="b_r_line"></i> 
+                </div>
+                <div class="main_title">
+                    <img src="img/t_7.png" alt="">
+                    省际交通数据
+                </div>
+                <div class="main_table t_btn8">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>运营数(辆)</th>
+                            <th>线路总长度(公里)</th>
+                            <th>客运总量(万人次)</th> 
+                            <th>日期</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>21059</td>
+                            <td>26497</td>
+                            <td>184448</td>
+                            <td>2018年</td>
+                        </tr>
+                        <tr>
+                            <td>18777</td>
+                            <td>21140</td>
+                            <td>188808</td>
+                            <td>2017年</td>
+                        </tr>
+                        <tr>
+                            <td>15757</td>
+                            <td>20225</td>
+                            <td>201143</td>
+                            <td>2016年</td>
+                        </tr>
+                        <tr>
+                            <td>17458</td>
+                            <td>19567</td>
+                            <td>202446</td>
+                            <td>2015年</td>
+                        </tr>
+                        <tr>
+                            <td>11323</td>
+                            <td>14562</td>
+                            <td>279854</td>
+                            <td>2014年</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="bottom_3">
+                <!-- 左上边框 -->
+                <div class="t_line_box">
+                    <i class="t_l_line"></i> 
+                    <i class="l_t_line"></i> 
+                </div> 
+                <!-- 右上边框 -->
+                <div class="t_line_box">
+                    <i class="t_r_line"></i> 
+                    <i class="r_t_line"></i> 
+                </div> 
+                <!-- 左下边框 -->
+                <div class="t_line_box">
+                    <i class="l_b_line"></i> 
+                    <i class="b_l_line"></i> 
+                </div> 
+                    <!-- 右下边框 -->
+                    <div class="t_line_box">
+                    <i class="r_b_line"></i> 
+                    <i class="b_r_line"></i> 
+                </div>
+                <div class="main_title">
+                    <img src="img/t_7.png" alt="">
+                   业务数据量
+                </div>
+                <div class="main_table t_btn2">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>省内(万件)</th>
+                            <th>省外(万件)</th>
+                            <th>国际(万件)</th>
+                            <th>总业务量(万件)</th>
+                            <th>日期</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>21352.36</td>
+                            <td>68575.6</td>
+                            <td>464.43</td>
+                            <td>90392.39</td>
+                            <td>2018年</td>
+                        </tr>
+                        <tr>
+                            <td>17522.41</td>
+                            <td>37111.03</td>
+                            <td>278.5</td>
+                            <td>54911.94</td>
+                            <td>2017年</td>
+                        </tr>
+                        <tr>
+                            <td>7014.14</td>
+                            <td>26841.29</td>
+                            <td>163.72</td>
+                            <td>34019.15</td>
+                            <td>2016年</td>
+                        </tr>
+                        <tr>
+                            <td>2553.55</td>
+                            <td>18072.54</td>
+                            <td>129.65</td>
+                            <td>20755.74</td>
+                            <td>2015年</td>
+                        </tr>
+                        <tr>
+                            <td>1427.04</td>
+                            <td>10859.54</td>
+                            <td>182.54</td>
+                            <td>12469.11</td>
+                            <td>2014年</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="bottom_4">
+                <!-- 右下边框 -->
+                <div class="t_line_box">
+                <i class="r_b_line"></i> 
+                <i class="b_r_line"></i> 
+            </div>
+            <div class="main_title">
+                <img src="img/t_7.png" alt="">
+               车辆相关信息
+            </div>
+            <div class="main_table t_btn3">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>载客汽车(万辆)</th>
+                        <th>载货汽车(万辆)</th>
+                        <th>汽车拥有量(万辆)</th>
+                        <th>日期</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>2.53</td>
+                        <td>142.65</td>
+                        <td>145.18</td>
+                        <td>2018年</td>
+                    </tr>
+                    <tr>
+                        <td>2.52</td>
+                        <td>139.95</td>
+                        <td>142.47</td>
+                        <td>2017年</td>
+                    </tr>
+                    <tr>
+                        <td>2.65</td>
+                        <td>137.96</td>
+                        <td>140.61</td>
+                        <td>2016年</td>
+                    </tr>
+                    <tr>
+                        <td>2.97</td>
+                        <td>131.48</td>
+                        <td>134.45</td>
+                        <td>2015年</td>
+                    </tr>
+                    <tr>
+                        <td>3.23</td>
+                        <td>99.99</td>
+                        <td>103.22</td>
+                        <td>2014年</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/echarts.js"></script>
+<script src="js/china.js"></script>
+<script src="js/vue.min.js"></script>
+<script>
+    // 地图
+    $(function(){
+        function randomData() {  
+            return Math.round(Math.random()*500);  
+        }
+        var mydata = [  
+            {name: '北京',value: '100' },{name: '天津',value: randomData() },  
+            {name: '上海',value: randomData() },{name: '重庆',value: randomData() },  
+            {name: '河北',value: randomData() },{name: '河南',value: randomData() },  
+            {name: '云南',value: randomData() },{name: '辽宁',value: randomData() },  
+            {name: '黑龙江',value: randomData() },{name: '湖南',value: randomData() },  
+            {name: '安徽',value: randomData() },{name: '山东',value: randomData() },  
+            {name: '新疆',value: randomData() },{name: '江苏',value: randomData() },  
+            {name: '浙江',value: randomData() },{name: '江西',value: randomData() },  
+            {name: '湖北',value: randomData() },{name: '广西',value: randomData() },  
+            {name: '甘肃',value: randomData() },{name: '山西',value: randomData() },  
+            {name: '内蒙古',value: randomData() },{name: '陕西',value: randomData() },  
+            {name: '吉林',value: randomData() },{name: '福建',value: randomData() },  
+            {name: '贵州',value: randomData() },{name: '广东',value: randomData() },  
+            {name: '青海',value: randomData() },{name: '西藏',value: randomData() },  
+            {name: '四川',value: randomData() },{name: '宁夏',value: randomData() },  
+            {name: '海南',value: randomData() },{name: '台湾',value: randomData() },  
+            {name: '香港',value: randomData() },{name: '澳门',value: randomData() }  
+        ]; 
+        var optionMap = {
+            tooltip: {
+                trigger: 'item'
+            },
+            legend: {
+                orient: 'vertical',
+                x: 'left',
+                y: 'bottom',
+                data: [
+                    '检测城市'
+                ],
+                textStyle: {
+                    color: '#ccc'
+                }
+            },
+            visualMap: {
+                min: 0,
+                max: 2500,
+                // left: 'right',
+                right:20,
+                top: 'bottom',
+                text: ['高', '低'], // 文本，默认为数值文本
+                calculable: true,
+                // color: ['#26cfe4', '#f2b600', '#ec5845'],
+                textStyle: {
+                    color: '#fff'
+                }
+            },
+            series: [{
+                name: '检测城市',
+                type: 'map',
+                aspectScale: 0.75,
+                zoom: 0.9,
+                mapType: 'china',
+                roam: false,
+                label: {
+                    normal: {
+                        show: true,//显示省份标签
+                        textStyle:{color:"#fff",fontSize:"10"}//省份标签字体颜色
+                    },    
+                    emphasis: {//对应的鼠标悬浮效果
+                        show: true,
+                        textStyle:{color:"#09121b"}
+                    } 
+                },
+                itemStyle: {
+                    normal: {
+                        borderWidth: .5,//区域边框宽度
+                        borderColor: '#14c8d4',//区域边框颜色
+                        areaColor:"rgba(63,112,191,0.8)",//区域颜色
+                    },
+                    emphasis: {
+                        borderWidth: .5,
+                        borderColor: '#4b0082',
+                        areaColor:"skyblue",
+                    }
+                },
+                data: function() {
+                    var serie = [];
+                    for(var i = 0; i < vm.map.length; i++) {
+                        var item = {
+                            name: vm.map[i].area,
+                            value: vm.map[i].cnt
+                        };
+                        serie.push(item);
+                    }
+                    return serie;
+                }()
+                // data: [
+                //     {name: '广东',selected: true,value:10},
+                //     {name: '广西',selected: true,value:10},
+                //     {name: '四川',selected: true,value:10},
+                // ]
+            }]  
+        };  
+        //初始化echarts实例
+        var myChart = echarts.init(document.getElementById('center_map'));
+        //使用制定的配置项和数据显示图表
+        myChart.setOption(optionMap);
+        // 当页面变化的时候添加监听，让echarts图表也跟着变化
+        window.addEventListener("resize", function () {
+            myChart.resize();
+        });
+    })
+    // 地图数据
+    var scn_data={
+		alarm:{alarm:10,fault:10},
+		dtu:{ on:150,off:150},
+		plc:{on:10,off:10},
+		industy:{v1:10,v2:11,v3:12,v3:14,v4:15,v5:17,v6:18},
+		online:{v1:10,v2:11,v3:12,v3:14,v4:15,v5:17,v6:18},
+		almMsg:[{msg:"最新信息"},
+				{msg:"最新信息"},
+				{msg:"最新信息"},
+				{msg:"最新信息"},
+				{msg:"最新信息"},
+				{msg:"最新信息"},
+				{msg:"最新信息"}
+				],
+		msgCnt:[{msg:100,alm:20},
+			{msg:200,alm:40},
+			{msg:300,alm:50},
+			{msg:400,alm:35},
+			{msg:400,alm:40},
+			{msg:400,alm:11},
+			{msg:400,alm:66},
+			{msg:100,alm:77},
+			{msg:200,alm:88},
+			{msg:300,alm:22},
+			{msg:400,alm:99},
+			{msg:400,alm:100},
+			{msg:400,alm:111},
+			{msg:400,alm:222},
+			{msg:100,alm:333},
+			{msg:200,alm:11},
+			{msg:300,alm:33},
+			{msg:400,alm:55},
+			{msg:400,alm:77},
+			{msg:400,alm:90}
+			],
+		map:[
+            {area:"陕西",cnt:800},
+            {area:"湖南",cnt:1300},
+            {area:"山东",cnt:400},
+			{area:"江苏",cnt:100},
+			{area:"辽宁",cnt:600}
+		],
+		factoryHeader:[
+	        {"categories":"单位名"},
+	        {"categories":"网关数"},
+	        {"categories":"设备数"},
+	        {"categories":"数据点"},
+	        {"categories":"报警"},
+	        {"categories":"操作"}
+    	],
+		factory:[
+			{"company":"城市","dtuCnt": 200, "plcCnt": 400,"dataCnt": 5000,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 3000,"plcCnt": 2000,"dataCnt": 1000,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1500,"plcCnt": 1000,"dataCnt": 500,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1500,"plcCnt": 300,"dataCnt": 1200,"alarm": "温度上限报警>120"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"},
+	        {"company":"城市","dtuCnt": 1000,"plcCnt": 800,"dataCnt": 200,"alarm": "无"}		]
+	};
+    var vm = new Vue({
+        el: '#content',
+        data: scn_data,
+        methods: {
+            details: function() {
+                
+            }
+        }
+    })
+
+    //物流数据
+    var left_a_chart = echarts.init(document.getElementById('left_a'));
+    var option_a = {
+        color: ['#3398DB'],
+        tooltip : {
+            trigger: 'axis',
+            axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+                type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '6%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis : [
+            {
+                type : 'category',
+                data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+                axisTick: {
+                    alignWithLabel: true
+                },
+                axisLine: {
+                lineStyle: {
+                    color: "#fff",
+                }
+            }
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value',
+                axisLine: {
+                lineStyle: {
+                    color: "#fff",
+                }
+            }
+            }
+        ],
+        series : [
+            {
+                name:'直接访问',
+                type:'bar',
+                barWidth: '60%',
+                data:[10, 52, 200, 334, 390, 330, 220]
+            }
+        ]
+    };
+        left_a_chart.setOption(option_a);
+
+     //相对占比密度
+    var left_b_chart = echarts.init(document.getElementById('left_b'));
+
+    var option_b = {
+        tooltip : {
+            trigger: 'item',
+            formatter: "{a} <br/>{b} : {c} ({d}%)"
+        },
+        legend: {
+            // orient: 'vertical',
+            // top: 'middle',
+            bottom: 15,
+            left: 'center',
+            data: ['湖南', '陕西','上海','山东','辽宁'],
+            textStyle:{
+                color:"#fff"
+            }
+        },
+        series : [
+            {
+                type: 'pie',
+                radius : '65%',
+                center: ['50%', '50%'],
+                selectedMode: 'single',
+                data:[
+                    {
+                        value:1548,
+                        name: '辽宁',
+                        label: {
+                            normal: {
+                                rich: {
+                                    title: {
+                                        color: '#fff',
+                                        align: 'center'
+                                    },
+                                    abg: {
+                                        // backgroundColor: '#333',
+                                        width: '100%',
+                                        align: 'right',
+                                        height: 25,
+                                        borderRadius: [4, 4, 0, 0]
+                                    },
+                                    Sunny: {
+                                        height: 30,
+                                        align: 'left',
+                                        backgroundColor: {
+                                            // image: weatherIcons.Sunny
+                                        }
+                                    },
+                                    Cloudy: {
+                                        height: 30,
+                                        align: 'left',
+                                        backgroundColor: {
+                                            // image: weatherIcons.Cloudy
+                                        }
+                                    },
+                                    Showers: {
+                                        height: 30,
+                                        align: 'left',
+                                        backgroundColor: {
+                                            // image: weatherIcons.Showers
+                                        }
+                                    },
+                                    weatherHead: {
+                                        color: '#333',
+                                        height: 24,
+                                        align: 'left'
+                                    },
+                                    hr: {
+                                        borderColor: '#777',
+                                        width: '100%',
+                                        borderWidth: 0.5,
+                                        height: 0
+                                    },
+                                    value: {
+                                        width: 20,
+                                        padding: [0, 20, 0, 30],
+                                        align: 'left'
+                                    },
+                                    valueHead: {
+                                        color: '#333',
+                                        width: 20,
+                                        padding: [0, 20, 0, 30],
+                                        align: 'center'
+                                    },
+                                    rate: {
+                                        width: 40,
+                                        align: 'right',
+                                        padding: [0, 10, 0, 0]
+                                    },
+                                    rateHead: {
+                                        color: '#333',
+                                        width: 40,
+                                        align: 'center',
+                                        padding: [0, 10, 0, 0]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {value:535, name: '湖南'},
+                    {value:1010, name: '山东'},
+                    {value:634, name: '陕西'},
+                    {value:735, name: '上海'}
+                ],
+                itemStyle: {
+                    emphasis: {
+                        shadowBlur: 10,
+                        shadowOffsetX: 0,
+                        shadowColor: 'rgba(0, 0, 0, 0.5)'
+                    }
+                }
+            }
+        ]
+    };
+
+    left_b_chart.setOption(option_b);
+
+    // 奢侈商品数据
+    var left_c_chart = echarts.init(document.getElementById('left_c'));
+    var option_c = {
+        legend: {
+            textStyle:{
+                color:"#fff"
+            }
+        },
+        grid:{
+                x2:12
+            },
+        tooltip: {},
+        dataset: {
+            source: [
+                ['product', '2015', '2016', '2017'],
+                ['Matcha Latte', 43.3, 85.8, 93.7],
+                ['Milk Tea', 83.1, 73.4, 55.1],
+                ['Cheese Cocoa', 86.4, 65.2, 82.5],
+                ['Walnut Brownie', 72.4, 53.9, 39.1]
+            ]
+        },
+        xAxis: {type: 'category',
+            axisLine: {
+                    lineStyle: {
+                        color: "#fff",
+                    }
+                }
+        },
+        yAxis: {
+            axisLine: {
+                lineStyle: {
+                    color: "#fff",
+                }
+            }
+        },
+        // Declare several bar series, each will be mapped
+        // to a column of dataset.source by default.
+        series: [
+            {type: 'bar'},
+            {type: 'bar'},
+            {type: 'bar'}
+        ]
+    };
+    left_c_chart.setOption(option_c);
+
+    // 货物周转数据
+    var right_a_chart = echarts.init(document.getElementById('right_a'));
+    var option_d = {
+    legend: {
+        data:['铁路货物','水运货物','公路货物','合资铁路货物','地方铁路货物'],
+        textStyle:{
+                color:"#fff"
+            }
+    },
+    grid: {
+        left: '3%',
+        right: '6%',
+        bottom: '3%',
+        containLabel: true
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['周一','周二','周三','周四','周五','周六','周日'],
+        axisLine: {
+                lineStyle: {
+                    color: "#fff",
+                }
+            }
+    },
+    yAxis: {
+        type: 'value',
+        axisLine: {
+                lineStyle: {
+                    color: "#fff",
+                }
+            }
+    },
+    series: [
+        {
+            name:'铁路货物',
+            type:'line',
+            stack: '总量',
+            data:[120, 132, 101, 134, 90, 230, 210]
+        },
+        {
+            name:'水运货物',
+            type:'line',
+            stack: '总量',
+            data:[220, 182, 191, 234, 290, 330, 310]
+        },
+        {
+            name:'公路货物',
+            type:'line',
+            stack: '总量',
+            data:[150, 232, 201, 154, 190, 330, 410]
+        },
+        {
+            name:'合资铁路货物',
+            type:'line',
+            stack: '总量',
+            data:[320, 332, 301, 334, 390, 330, 320]
+        },
+        {
+            name:'地方铁路货物',
+            type:'line',
+            stack: '总量',
+            data:[820, 932, 901, 934, 1290, 1330, 1320]
+        }
+    ]
+};
+
+    right_a_chart.setOption(option_d);
+
+    // 高速公路信息
+    var right_b_chart = echarts.init(document.getElementById('right_b'));
+    var category = [];
+    var dottedBase = +new Date();
+    var lineData = [];
+    var barData = [];
+
+    for (var i = 0; i < 20; i++) {
+        var date = new Date(dottedBase += 3600 * 24 * 1000);
+        category.push([
+            date.getFullYear(),
+            date.getMonth() + 1,
+            date.getDate()
+        ].join('-'));
+        var b = Math.random() * 200;
+        var d = Math.random() * 200;
+        barData.push(b)
+        lineData.push(d + b);
+    }
+    // option
+    var option_e = {
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        grid:{
+                x2:12
+            },
+        legend: {
+            data: ['line', 'bar'],
+            textStyle: {
+                color: '#ccc'
+            }
+        },
+        xAxis: {
+            data: category,
+            axisLine: {
+                lineStyle: {
+                    color: '#ccc'
+                }
+            }
+        },
+        yAxis: {
+            splitLine: {show: false},
+            axisLine: {
+                lineStyle: {
+                    color: '#ccc'
+                }
+            }
+        },
+        series: [{
+            name: 'line',
+            type: 'line',
+            smooth: true,
+            showAllSymbol: true,
+            symbol: 'emptyCircle',
+            symbolSize: 15,
+            data: lineData
+        }, {
+            name: 'bar',
+            type: 'bar',
+            barWidth: 10,
+            itemStyle: {
+                normal: {
+                    barBorderRadius: 5,
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#14c8d4'},
+                            {offset: 1, color: '#43eec6'}
+                        ]
+                    )
+                }
+            },
+            data: barData
+        }, {
+            name: 'line',
+            type: 'bar',
+            barGap: '-100%',
+            barWidth: 10,
+            itemStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: 'rgba(20,200,212,0.5)'},
+                            {offset: 0.2, color: 'rgba(20,200,212,0.2)'},
+                            {offset: 1, color: 'rgba(20,200,212,0)'}
+                        ]
+                    )
+                }
+            },
+            z: -12,
+            data: lineData
+        }, {
+            name: 'dotted',
+            type: 'pictorialBar',
+            symbol: 'rect',
+            itemStyle: {
+                normal: {
+                    color: '#0f375f'
+                }
+            },
+            symbolRepeat: true,
+            symbolSize: [12, 4],
+            symbolMargin: 1,
+            z: -10,
+            data: lineData
+        }]
+    };
+    right_b_chart.setOption(option_e);
+</script>
